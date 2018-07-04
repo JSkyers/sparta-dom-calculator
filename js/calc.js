@@ -132,6 +132,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
   buttonClear[0].addEventListener('click' , function(event){
     thescreen.innerHTML = "";
+    num1 = 0;
+    num2 = 0;
+    add = false;
+    sub = false;
+    div = false;
+    multi = false;
 
   });
 
