@@ -15,7 +15,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
   buttonNum[0].addEventListener('click' , function(event){
-    event.stopPropagation();
     thescreen.innerHTML = "7";
     if (num1 == 0) {
       num1 = 7;
@@ -26,7 +25,6 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
   buttonNum[1].addEventListener('click' , function(event){
-    event.stopPropagation();
     thescreen.innerHTML = "8";
     if (num1 == 0) {
       num1 = 8;
@@ -37,7 +35,6 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
   buttonNum[2].addEventListener('click' , function(event){
-    event.stopPropagation();
     thescreen.innerHTML = "9";
     if (num1 == 0) {
       num1 = 9;
@@ -47,7 +44,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
   });
   buttonNum[3].addEventListener('click' , function(event){
-    event.stopPropagation();
     thescreen.innerHTML = "4";
     if (num1 == 0) {
       num1 = 4;
@@ -57,7 +53,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
   });
   buttonNum[4].addEventListener('click' , function(event){
-    event.stopPropagation();
     thescreen.innerHTML = "5";
     if (num1 == 0) {
       num1 = 5;
@@ -67,7 +62,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
   });
   buttonNum[5].addEventListener('click' , function(event){
-    event.stopPropagation();
     thescreen.innerHTML = "6";
     if (num1 == 0) {
       num1 = 6;
@@ -77,7 +71,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
   });
   buttonNum[6].addEventListener('click' , function(event){
-    event.stopPropagation();
     thescreen.innerHTML = "1";
     if (num1 == 0) {
       num1 = 1;
@@ -87,7 +80,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
   });
   buttonNum[7].addEventListener('click' , function(event){
-    event.stopPropagation();
     thescreen.innerHTML = "2";
     if (num1 == 0) {
       num1 = 2;
@@ -97,7 +89,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
   });
   buttonNum[8].addEventListener('click' , function(event){
-    event.stopPropagation();
     thescreen.innerHTML = "3";
     if (num1 == 0) {
       num1 = 3;
